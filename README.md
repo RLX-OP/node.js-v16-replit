@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
 2. Create the [`.replit`](https://docs.repl.it/repls/dot-replit) to execute node from the shell instead of the console.
 ```
-run="npm start"
+run = "npm start"
 ```
 
 3. Make sure to add the start script in your package.json file
