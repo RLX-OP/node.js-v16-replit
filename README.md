@@ -1,4 +1,4 @@
-# Node.js 16 on replit
+# Node.js 16/14 on replit
 
 Steps:
 
@@ -6,7 +6,7 @@ Steps:
 ```sh
 npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 ```
-Or if this does not work try:
+Or if this does not work try down one for node.js v14:
 ```sh
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && export NVM_DIR=\"$([ -z \"${XDG_CONFIG_HOME-}\" ] && printf %s \"${HOME}/.nvm\" || printf %s \"${XDG_CONFIG_HOME}/nvm\")\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 16 && nvm use 16
 ```
