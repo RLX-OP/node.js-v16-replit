@@ -1,4 +1,4 @@
-# Node.js 16/14 on replit
+# Node.js 16 on replit
 
 Steps:
 
